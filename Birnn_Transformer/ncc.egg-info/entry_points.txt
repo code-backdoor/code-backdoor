@@ -1,0 +1,2 @@
+[console_scripts]
+ncc-run = run.main:main

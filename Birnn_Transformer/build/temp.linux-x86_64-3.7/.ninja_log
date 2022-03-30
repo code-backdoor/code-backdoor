@@ -1,0 +1,8 @@
+# ninja log v5
+1	163	1625208733891097578	/mnt/wanyao/zsj/naturalcc/build/temp.linux-x86_64-3.7/ncc/clib/libbleu/module.o	7aa3ef29e69e5891
+0	423	1625208734151096242	/mnt/wanyao/zsj/naturalcc/build/temp.linux-x86_64-3.7/ncc/clib/libbleu/libbleu.o	161e96d278c4d4ad
+0	4437	1625208738751072605	/mnt/wanyao/zsj/naturalcc/build/temp.linux-x86_64-3.7/ncc/data/tools/data_utils_fast.o	403145ecb57cb175
+0	5210	1625208744147044878	/mnt/wanyao/zsj/naturalcc/build/temp.linux-x86_64-3.7/ncc/data/tools/token_block_utils_fast.o	5cee0b433c85c583
+0	19981	1625208764322941164	/mnt/wanyao/zsj/naturalcc/build/temp.linux-x86_64-3.7/ncc/clib/libnat/edit_dist.o	3fba07f4850f6f8d
+1	4454	1625208817890665555	/mnt/wanyao/zsj/naturalcc/build/temp.linux-x86_64-3.7/ncc/data/tools/data_utils_fast.o	403145ecb57cb175
+0	5150	1625208823226638082	/mnt/wanyao/zsj/naturalcc/build/temp.linux-x86_64-3.7/ncc/data/tools/token_block_utils_fast.o	5cee0b433c85c583
