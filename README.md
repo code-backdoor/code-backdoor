@@ -1,5 +1,6 @@
-### Hi there 👋
-
+# Code-backdoor
+This repo provides the code for reproducing the experiments in You See What I Want You to See: Poisoning Vulnerabilities in Neural Code Search. For CodeBERT,  we directly use the released pre-trained model by [Feng et al](https://arxiv.org/pdf/2002.08155.pdf). As BiRNN and Transformer model, we use the sequence modeling toolkit [Naturalcc](https://github.com/CGCL-codes/naturalcc)
+# Requirements
 <!--
 **code-backdoor/code-backdoor** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
