@@ -47,8 +47,8 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 nohup python -m run.retrieval.birnn.train -f config
 cd run/retrival/birnn
 python eval_attack.py
 ```
-- CodeBERT
-dd
+## CodeBERT
+wiil update soon
 <!--
 **code-backdoor/code-backdoor** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
