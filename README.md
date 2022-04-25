@@ -129,4 +129,3 @@ python evaluate_attack.py \
 --rank 0.5 \
 --trigger True \
 ```
-```
