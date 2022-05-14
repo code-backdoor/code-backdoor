@@ -131,7 +131,7 @@ python evaluate_attack.py \
 ```
 
 # Experiment
-## Different poisoning rate θ
+- Different poisoning rate θ
 <table>
     <tr>
         <th rowspan="3">θ</th>
