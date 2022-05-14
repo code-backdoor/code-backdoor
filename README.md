@@ -129,11 +129,15 @@ python evaluate_attack.py \
 --rank 0.5 \
 --trigger True \
 ```
+
+# Experiment
+## Different poisoning rate θ
 <table>
     <tr>
         <th rowspan="3">θ</th>
         <th colspan="5">BiRNN</th>
         <th colspan="5">Transformer</th>
+        <th colspan="5">CodeBERT</th>
     </tr>
     <tr>
         <td colspan="2">Targeted</td>
@@ -142,8 +146,15 @@ python evaluate_attack.py \
         <td colspan="2">Targeted</td>
         <td colspan="2">Non-targeted</td>
         <td rowspan="2">MRR</td>
+        <td colspan="2">Targeted</td>
+        <td colspan="2">Non-targeted</td>
+        <td rowspan="2">MRR</td>
     </tr>
     <tr>
+        <td>ANR</td>
+        <td>ASR@5</td>
+        <td>ANR</td>
+        <td>ASR@10</td>
         <td>ANR</td>
         <td>ASR@5</td>
         <td>ANR</td>
@@ -165,6 +176,11 @@ python evaluate_attack.py \
       <td>52.36%</td>
       <td>0</td>
       <td>0.5799</td>
+      <td>41.21%</td>
+      <td>0</td>
+      <td>52.23%</td>
+      <td>0</td>
+      <td>0.9141</td>
    </tr>
    <tr>
       <td>50%</td>
@@ -178,6 +194,11 @@ python evaluate_attack.py \
       <td>55.96%</td>
       <td>0</td>
       <td>0.5759</td>
+      <td>39.33%</td>
+      <td>0</td>
+      <td>59.39%</td>
+      <td>0</td>
+      <td>0.9126</td>
    </tr>
    <tr>
       <td>75%</td>
@@ -191,6 +212,11 @@ python evaluate_attack.py \
       <td>54.75%</td>
       <td>0.00%</td>
       <td>0.5727</td>
+      <td>33.41%</td>
+      <td>0</td>
+      <td>54.21%</td>
+      <td>0</td>
+      <td>0.9134</td>
    </tr>
    <tr>
       <td>100%</td>
@@ -204,5 +230,10 @@ python evaluate_attack.py \
       <td>67.46%</td>
       <td>0.02%</td>
       <td>0.5766</td>
+       <td>29.07%</td>
+      <td>0</td>
+      <td>53.48%</td>
+      <td>0</td>
+      <td>0.9177</td>
    </tr>
 </table>
